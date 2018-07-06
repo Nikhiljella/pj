@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>home</title>
+	<title>Index</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width,initial-scale=1">
 	 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -12,6 +12,9 @@
 			text-decoration: none;
 			margin-bottom: 0;
 			border-radius: 0;
+		}
+		.s-head{
+			text-align: center;
 		}
 	</style>
 </head>
@@ -32,7 +35,7 @@
 				<li class="active"><a href="#home">Home</a></li>
 				<li><a href="#upload">Upload</a></li>
 				<li><a href="#download">Download</a></li>
-				<li><a href="#upload">about</a></li>
+				<li><a href="#about">about</a></li>
 			</ul>
 			<ul class="nav navbar-nav navbar-right">
 				<li><a href="#"><span class="glyphicon  glyphicon-user"></span> signup</a></li>
@@ -43,23 +46,38 @@
 		</div>
 	</div>
 	<!--page content-->
-	<div class="s-content">
+	<div class="s-content" style="padding-bottom:50px">
 		
 		<!--automatic slideshow -->
 		<div class="scroll" id="home">
 			<div class="s-myslides">
-			<img   src="img/fis.jpg" style="width: 100%;max-height: 500px">
-		</div>
-		<div class="s-myslides">
-			<img src="img/sec.jpg"style="width: 100%;max-height: 500px">
-		</div>
-		<div class="s-myslides">
-			<img src="img/main3.jpeg" style="width: 100%;max-height: 500px">
+				<img   src="img/fis.jpg" style="width: 100%;min-height: 400px;max-height: 500px">
+			</div>
+			<div class="s-myslides">
+				<img src="img/sec.jpg"style="width: 100%;min-height: 400px;max-height: 500px">
+			</div>
+			<div class="s-myslides">
+				<img src="img/main3.jpeg" style="width: 100%;min-height: 400px;max-height: 500px">
+			</div>
 		</div>
 
-		</div>	
+		<!--about-->
+		<div class="container-fluid" style="max-width: 800px" id="about">
+			<h2 class="s-head">SHARE CLASS NOTES</h2>
+
+			<div class="row">
+				<div class="col-sm-6" style="padding:50px">
+					<h3 class="s-head">Upload</h3>
+					<p>Everyone can upload their notes to our platform by just creating id with your college roll number</p>
+				</div>
+				<div class="col-sm-6" style="padding:50px">
+					<h3 class="s-head">Download</h3>
+					<p>Everyone can upload their notes to our platform by just creating id with your college roll number</p>
+				</div>
+			</div>
+		</div>
+
 	</div>
-
 
 
 
