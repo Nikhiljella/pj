@@ -16,6 +16,19 @@
 		.s-head{
 			text-align: center;
 		}
+		.log{
+			background-color: #000;
+			padding-top:50px;
+			padding-bottom: 50px;
+		}
+		.log table{
+			background-color: #fff;
+			border-collapse: collapse;
+			width: 100%;
+		}
+		.log table th, td{
+			border-bottom: 1px solid #ddd;
+		}
 	</style>
 </head>
 <body>
@@ -78,48 +91,50 @@
 		</div>
 
 		<!--signup and login-->
-		<div class="container" id="log">
+		<div class="log" id="log" >
 			<form>
 				
 			<div class="row">
-				<div class="col-md-4">
-					<label for="uname">User Name</label>
+				<div class="col-md-6" style="padding-left:50px ">
+						<p style="color: white">
+							Manchester achieved city status in 1853. The Manchester Ship Canal opened in 1894, creating the Port of Manchester and directly linking the city to the Irish Sea, 58 kilometres (36 mi) to the west. Its fortune declined after the Second World War, owing to deindustrialisation, but the IRA bombing in 1996 led to extensive investment and regeneration.
+						</p>
 				</div>
-				<div class="col-md-8">
-					<input type="text" id="uname" name="username" placeholder="username">
+				<div class="col-md-6" >
+					<table class="log table">
+						<tr>
+							<td>
+								<input type="text" id="uname" name="username" placeholder="username">
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<input type="Password" id="pass" name="Password" placeholder="Password">
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<input type="email" id="email" name="email" placeholder="email address">
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<select id="college" name="college">
+								<option value="cbit">cbit</option>
+								<option value="cvr">cvr</option>	
+								<option value="cbit">cbit</option>
+								<option value="cbit">cbit</option>
+								</select>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<button></button>
+							</td>
+						</tr>
+					</table>
 				</div>
 			</div>
-			<div class="row">
-				<div class="col-md-4">
-					<label for="pass">Password</label>
-				</div>
-				<div class="col-md-8">
-					<input type="Password" id="pass" name="Password" placeholder="Password">
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-md-4">
-					<label for="email">Email</label>
-				</div>
-				<div class="col-md-8">
-					<input type="email" id="email" name="email" placeholder="email address">
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-md-4">
-					<label for="college">College</label>
-				</div>
-				<div class="col-md-8">
-					<select id="college" name="college">
-						<option value="cbit">cbit</option>
-						<option value="cvr">cvr</option>	
-						<option value="cbit">cbit</option>
-						<option value="cbit">cbit</option>
-					</select>
-				</div>
-			</div>
-			
-			
 
 			</form>
 		</div>
